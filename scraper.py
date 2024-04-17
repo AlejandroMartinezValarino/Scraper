@@ -22,6 +22,7 @@ def scrap(negocio, lugar):
     opciones.add_argument("--disable-dev-shm-usage")
     opciones.add_argument("--disable-gpu")
     opciones.add_argument("--ignore-certificate-errors")
+    opciones.add_argument("--window-size=1920,1080")
     opciones.add_argument("--headless")
     navegador = webdriver.Chrome(opciones)
     #navegador.maximize_window()
